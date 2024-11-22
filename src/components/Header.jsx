@@ -44,6 +44,7 @@ const Header = () => {
             <Link to="/" onClick={toggleMenu}><li className="text-blue-500 text-xl hover:text-orange-500">Home</li></Link>
             <Link to="/about" onClick={toggleMenu}><li className="text-blue-500 text-xl hover:text-orange-500">About</li></Link>
             <Link to="/contact" onClick={toggleMenu}><li className="text-blue-500 text-xl hover:text-orange-500">Contact</li></Link>
+            <Link to="services "><h1 className='text-blue-500 hover:text-orange-500 text-2xl'>Services</h1></Link>
           </div>
         </div>
       )}
